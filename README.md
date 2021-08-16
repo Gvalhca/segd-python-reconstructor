@@ -12,6 +12,6 @@
   | Content | Header block <br />(GenHeaders + ChanSets <br /> + ExtdHdr+ ExtrlHdr) | Traces headers <br /> Trhdr + TrExtHdr #1-7 | Traces Data      |   
   | Type    | bytearray | List of bytearrays <br /> with `len(num_of_traces)`       | `np.array` with <br /> `shape=(num_of_traces, num_of_samples)` |
 
-* Run `.reconstruct()` and read or save with `save_segd()` result
+* Run `.reconstruct()` and read or save result with `save_segd()`
 
 * Example can be found in `run.py`
